@@ -1,14 +1,16 @@
 #include "main.h"
 
 /**
- * puts_half - print the second half of a string
- * @str: string to use
- *
- */
+* puts_half - print the second half of a string
+* @str: string to use
+*
+*/
 
 void puts_half(char *str)
 {
 int length, n, i;
+
+for (length = 0; str[length] != '\0';  length++)
 
 {
 }
@@ -19,4 +21,4 @@ _putchar(str[i]);
 }
 _putchar('\n');
 
-}
+}		    
