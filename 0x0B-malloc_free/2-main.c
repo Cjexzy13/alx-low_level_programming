@@ -1,4 +1,4 @@
-#include "main.h
+#include "main.h"
 
 #include <stdio.h>
 
@@ -14,8 +14,6 @@
 
  * Return: Always 0.
 
- */
-
 int main(void)
 
 {
@@ -24,13 +22,13 @@ char *s;
 
 
 
-s = _strdup("ALX SE");
+s = str_concat("Betty ", "Holberton");
 
 if (s == NULL)
 
 {
 
-printf("failed to allocate memory\n");
+printf("failed\n");
 
 return (1);
 
